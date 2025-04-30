@@ -6,7 +6,6 @@ import time
 
 # Load environment variables (Render or .env)
 BOT_TOKEN = os.getenv("8104700736:AAHPuLcYBd4H-LkpJhxu0T3IZ--YSBs7iY0")
-CHAT_ID = os.getenv("CHAT_ID")
 
 def generate_prediction(period_number):
     bet = random.choice(["SMALL", "BIG"])
